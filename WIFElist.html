@@ -1,0 +1,111 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+          <title>WIFE List Export</title>
+          <style>
+            body { 
+              font-family: 'Dancing Script', cursive;
+              margin: 20px;
+              background-color: white;
+              color: #4a5568;
+            }
+            @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+            table { 
+              width: 100%;
+              border-collapse: collapse;
+              margin-bottom: 20px;
+              background-color: white;
+              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            }
+            th, td { 
+              border: 1px solid #fed7e2;
+              padding: 12px;
+              text-align: left;
+            }
+            th { 
+              background-color: #fed7e2;
+              color: #702459;
+              font-family: Arial, sans-serif;
+            }
+            tr:nth-child(even) { background-color: #fff5f7; }
+            .print-button {
+              display: block;
+              width: 200px;
+              margin: 20px auto;
+              padding: 12px;
+              background-color: #ed64a6;
+              color: white;
+              text-align: center;
+              border: none;
+              border-radius: 25px;
+              cursor: pointer;
+              text-decoration: none;
+              font-family: Arial, sans-serif;
+              transition: all 0.3s ease;
+            }
+            .print-button:hover { 
+              background-color: #d53f8c;
+              transform: translateY(-2px);
+            }
+            h1 {
+              text-align: center;
+              color: #702459;
+              font-size: 2.5em;
+              margin-bottom: 0.5em;
+            }
+            .timestamp {
+              text-align: center;
+              color: #805ad5;
+              margin-bottom: 2em;
+              font-family: Arial, sans-serif;
+            }
+            @media print {
+              .print-button { display: none; }
+              body { background-color: white; }
+            }
+          </style>
+        </head>
+        <body>
+          <h1>WIFE List Export</h1>
+          <p class="timestamp">Generated on: 1/12/2025, 4:07:45 PM</p>
+          <table>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Status</th>
+                <th>Telegram</th>
+                <th>Twitter</th>
+                <th>Discord</th>
+                <th>Email</th>
+                <th>Info</th>
+                <th>Wallets</th>
+                <th>Date</th>
+              </tr>
+            </thead>
+            <tbody>
+              
+                  <tr>
+                    <td>1</td>
+                    <td>Mu•••••••47</td>
+                    <td>Winner</td>
+                    <td>Mu•••••••47</td>
+                    <td>Mu••••••••77</td>
+                    <td>bz.o</td>
+                    <td>mar•••••••••mail.com</td>
+                    <td>in••••••••••••••••••47</td>
+                    <td>
+                      <div>Solana: 2Gm9••••••••••••••••••••••••••••••••••••icmF</div>
+                      <div>Base: 0xfd••••••••••••••••••••••••••••••••••7a12</div>
+                      <div>Polygon: 0xfd••••••••••••••••••••••••••••••••••7a12</div>
+                    </td>
+                    <td>2025-01-12</td>
+                  </tr>
+                
+            </tbody>
+          </table>
+          <button onclick="window.print()" class="print-button">Print to PDF</button>
+        </body>
+        </html>
+      
